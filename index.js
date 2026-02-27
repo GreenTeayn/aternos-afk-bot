@@ -1,8 +1,8 @@
 const mineflayer = require('mineflayer');
 
 const bot = mineflayer.createBot({
-  host: 'YOUR_SERVER_IP', // without port (ex: play.aternos.me)
-  port: 25565, // Default Minecraft port
+  host: 'YOUR_SERVER_IP', // without port (ex: lifechorsmp100.aternos.me)
+  port: 12679, // Default Minecraft port
   username: 'AFK_Bot' // Bot username
 });
 
@@ -14,7 +14,7 @@ bot.on('spawn', () => {
     setTimeout(() => {
       bot.setControlState('jump', false);
     }, 500);
-  }, 10000); // Every 10 sec jump
+  }, 1000); // Every 10 sec jump
 });
 
 bot.on('error', err => console.log('Error:', err));
