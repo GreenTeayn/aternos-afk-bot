@@ -1,8 +1,8 @@
 const mineflayer = require('mineflayer');
 
 const bot = mineflayer.createBot({
-  host: 'YOUR_SERVER_IP', // without port (ex: play.aternos.me)
-  port: 25565, // Default Minecraft port
+  host: 'Shahzaib2242.aternos.me', // without port (ex: play.aternos.me)
+  port: 58961, // Default Minecraft port
   username: 'AFK_Bot' // Bot username
 });
 
